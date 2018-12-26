@@ -4,27 +4,30 @@ Uses react-loadable for importing and to gain control over chunking webpacked bu
 
 ##### Install
 
-Clone, fork, or download this repository.
+Clone, fork, or download this project.
 
-In the directory, run the following command
+In your local project directory, run the following command:
 
 `yarn install`
 
 
 ##### Build
 
-For non-minified bundles - 
+For non-minified bundles:
 
 `yarn build --mode development`
 
-or, for minified bundles -
+or, for minified bundles:
 
 `yarn build --mode production`
 
 
 ##### Run 
 
-Webpack dev server -
+Webpack dev server:
 
 `yarn start`
 
+Notice in your ./public/build directory there are three bundles, one for main and one for each ExtensionPanel.
+
+Create, build and overwrite your own ExtensionPanels and 
