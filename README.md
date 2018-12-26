@@ -21,13 +21,11 @@ or, for minified bundles:
 
 `yarn build --mode production`
 
+Notice in your ./public/build directory there are two bundles, one for main and one for the ExtensionPanel component.
+
 
 ##### Run 
 
-Webpack dev server:
+`yarn prod`
 
-`yarn start`
-
-Notice in your ./public/build directory there are three bundles, one for main and one for each ExtensionPanel.
-
-Create, build and overwrite your own ExtensionPanels and 
+Create and build your own ExtensionPanel and overwrite the ExtensionPanel.js file in the build directory.

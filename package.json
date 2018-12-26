@@ -4,10 +4,12 @@
   "main": "index.js",
   "author": "Deane Smith",
   "scripts": {
-    "start": "webpack-dev-server",
-    "build": "webpack"
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack",
+    "prod": "http-server ./public"
   },
   "dependencies": {
+    "http-server": "^0.11.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-loadable": "^3.0.1"
