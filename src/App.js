@@ -3,7 +3,7 @@ import Loadable from 'react-loadable';
 import Loading from './components/Loading';
 
 let LoadablePanel = Loadable({
-    loader: () => import(/* webpackChunkName: "ExtensionPanel1" */ './extensions/ExtensionPanel'),
+    loader: () => import(/* webpackChunkName: "ExtensionPanel" */ './extensions/ExtensionPanel'),
     LoadingComponent: Loading
 });
 
